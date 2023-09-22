@@ -1,0 +1,107 @@
+body{
+    font-family: sans-serif;
+    background-image: url("imagen1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.escondido{
+    display: none;
+}
+
+
+.menu_inicio{
+    background-color: rgb(46, 46,46,100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#loguin-form{
+    background-color: white;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    margin-bottom: 10px;
+}
+
+
+.btn-loguin{
+    height: 40px;
+    background-color: rgb(100, 123, 253);
+    border-style: none;
+    color: #ffffff;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.btn-loguin:hover{
+    color:#fff;
+    background-color: rgb(41, 73, 253);
+    border-color: rgb(41, 73, 253);
+
+}
+
+.cont_1{
+    flex-direction: column ;
+    width: 460px;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+
+
+
+input{
+    margin-top: 5px;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+    height: 35px;
+    width: 300px;
+    text-align:start
+}
+
+
+
+
+.logo{
+    width: 90px;
+    height:100px ;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+}
+
+#label_1{
+    padding-right: 58%;
+    margin-top: 10px;
+}
+
+#label_2{
+    padding-right: 52%;
+    margin-top: 10px;
+}
